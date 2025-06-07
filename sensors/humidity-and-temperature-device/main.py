@@ -2,7 +2,7 @@ import time
 import board
 import adafruit_dht
 
-# Initialize the DHT11 sensor on GPIO4
+# Initialize the DHT11 sensor on GPIO
 dht_device = adafruit_dht.DHT11(board.D4)
 
 while True:
